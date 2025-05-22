@@ -1,0 +1,18 @@
+{
+    "name": "bera-limit-order-monitor",
+    "version": "1.0.0",
+    "description": "Monitor BERAUSD price and execute limit orders",
+    "main": "./Execute.js",
+    "scripts": {
+        "start": "node ./Execute.js"
+    },
+    "dependencies": {
+        "@pythnetwork/client": "^2.22.1",
+        "@pythnetwork/hermes-client": "^2.0.0",
+        "@pythnetwork/price-service-client": "^1.9.0",
+        "axios": "^1.6.7",
+        "dotenv": "^16.5.0",
+        "ethers": "^6.11.1",
+        "node-cron": "^3.0.3"
+    }
+}
